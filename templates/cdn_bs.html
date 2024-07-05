@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <title>BootstrComponents!</title>
+  </head>
+  <body>
+    <!-- alert components -->
+    <div class="alert alert-primary mt-2">
+        Hello Guys...Stay Focused(This is an alert component)....
+    </div>
+    <div class="alert alert-info">Here we are using alert link component
+            <a href="https://cdn.dribbble.com/users/3723028/screenshots/18077656/media/b235d26530a71ce963fdfd1195a56f22.gif" class="alert-link"> here in anchor tag ,i am just give a random link</a>
+    </div>
+    <!-- additional content -->
+    <div class="alert alert-success">
+        <h3 class="alert-heading">wakeup to reality!!</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus porro error aut quibusdam accusamus vero temporibus, officiis necessitatibus sed reprehenderit optio natus sint animi sapiente, nam sequi harum dolor aperiam!
+        Aperiam adipisci distinctio consequatur. Minima possimus, aperiam obcaecati officia at ex velit distinctio ipsam culpa sunt recusandae fugiat. Veritatis soluta hic odio doloremque, aspernatur eius perferendis voluptate deserunt neque dolor!</p>
+        <hr>
+        <p>In the above hr tag is used for giving a line</p>
+    </div>
+    <!-- Dismissing..it is used for dismissing any alert line -->
+    <div class="alert alert-warning " role="alert">
+        <strong>Strong tag is used for bold text</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus quaerat, ullam, dolorem, culpa ut tempore est ad beatae ipsum illo dolores. Modi dolor sequi expedita, quaerat placeat architecto qui id.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <!-- Badges -->
+    <h3>Example heading <span class="badge badge-primary">New</span></h3>
+    <!-- Badges can be used as part of links or buttons to provide a counter.-->
+    <button type="button" class="btn btn-danger">
+      Notifications <span class="badge badge-light">4</span>
+    </button>
+    <button type="button" class="btn btn-info">
+      Profile <span class="badge badge-light">9</span>
+      <span class="sr-only">unread messages(sr-only used to hide sentence on screen)</span>
+    </button>
+    <!-- for rounded badges -->
+    <button type="button" class="badge badge-pill badge-success">Hello</button>
+    <span class="badge badge-pill badge-primary">Primary</span>
+
+    <!-- for link in badges -->
+    <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjg7cmVkYiHAxUIpGYCHfFpBf0YABAAGgJzbQ&co=1&ase=2&gclid=CjwKCAjwyo60BhBiEiwAHmVLJUvvURHavbTs61d9afQ1SbOP-X8j45OW_hOWvO3pfaOSYHEWXs_aPRoCVq0QAvD_BwE&ohost=www.google.com&cid=CAESVeD20oaV_31qWX9PQDHnurWXOKMq-nwfm3tO8VAtYNTpqu0h2kLxviL6h7t6sECBcUW58Pkv3Gbc3YusFy4wDbcm5xIoIBh7YnrkyEWvhf9dd-3vB7c&sig=AOD64_1-lqCnnioFgIKgG19554gScz6mtg&q&nis=4&adurl&ved=2ahUKEwjl_sOVkYiHAxWzTWwGHU7lBxQQ0Qx6BAgIEAE" class="badge badge-light">Amazon</a>
+    <!-- nav -->
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb mt-3">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Library</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Data(aria-current="page" to the last item of the set to indicate that it represents the current page.)</li>
+      </ol>
+    </nav>
+    <!-- button tags -->
+    <button type="button" class="btn btn-danger">Danger</button>
+    <a class="btn btn-dark" href="https://www.linkedin.com/login">LinkedIn</a>
+    <input class="btn btn-primary" type="submit" >
+    <button type="button" class="btn btn-outline-success">outline</button>
+    <div class="mt-2">
+      <button type="button" class="btn btn-primary btn-lg">Large button</button>
+      <button type="button" class="btn btn-danger btn-sm">Small button</button>
+      <button type="button" class="btn btn-primary btn-lg btn-block mt-2">Block level button</button>
+      <!-- active and disabled buttons -->
+      <a href="#" class="btn btn-danger btn-lg active mt-2" role="button" aria-pressed="true">Link</a>
+      <button type="button" class="btn btn-primary btn-lg mt-2" disabled>Button</button>
+      <!-- checked and radio buttons -->
+      <div class="btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-secondary active mt-2">
+          <input type="checkbox" checked> Checked
+        </label>
+      </div>
+      <div class="btn-group btn-group-toggle mt-3" data-toggle="buttons">
+        <label class="btn btn-secondary active">
+          <input type="radio" name="options" id="option1" checked> Active
+        </label>
+        <label class="btn btn-secondary">
+          <input type="radio" name="options" id="option2"> Radio
+        </label>
+        <label class="btn btn-secondary">
+          <input type="radio" name="options" id="option3"> Radio
+        </label>
+      </div>
+    </div>
+    <!-- Button toolbar -->
+    <div class="btn-toolbar mt-2" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group mr-2" role="group" aria-label="First group">
+        <button type="button" class="btn btn-secondary">1</button>
+        <button type="button" class="btn btn-secondary">2</button>
+        <button type="button" class="btn btn-secondary">3</button>
+        <button type="button" class="btn btn-secondary">4</button>
+      </div>
+      <div class="btn-group mr-2">
+        <button type="button" class="btn btn-danger">5</button>
+        <button type="button" class="btn btn-danger">6</button>
+        <button type="button" class="btn btn-danger">7</button>
+      </div>
+      <div class="btn-group" role="group" aria-label="Third group">
+        <button type="button" class="btn btn-secondary">8</button>
+      </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer style="margin-bottom: 500px;"></footer>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
